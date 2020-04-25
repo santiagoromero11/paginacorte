@@ -1,0 +1,575 @@
+@charset "utf-8";
+* {
+	padding: 0;
+	border: 0;
+	margin: 0;
+	text-decoration: none;
+}
+
+body {
+    background-color: #C0C0C0;
+
+
+}
+
+.contenedor{
+    width: 1200px;
+    height: 946px;
+    background-color: white;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 181px;
+}
+header {
+    width: 1200px;
+    height: 70px;
+    float: left;
+    background-color: white;
+    position: absolute;
+}
+
+.menul {
+    width: 468px;
+    height: 70px;
+    background-color: #0096D6;
+    float: left;
+    margin-left: 35px;
+}
+
+.menul {
+    list-style-type: none;
+}
+
+.menul li {
+    width: 156px;
+    height: 70px;
+    background-color: white;
+    float: left;
+    text-align: center;
+    line-height: 70px;
+    font-family: "Myriad Pro";
+    font-style: normal;
+    font-weight: bold;
+}
+
+
+#inicio {
+	height: 70px;
+	width: 300px;
+ }
+
+#logo {
+    background-color: white;
+    width: 300px;
+    height: 70px;
+    float: left;
+	background-image: url(./img/logo.png);
+	background-size: 50%;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+a {
+    display: block;
+    color: #888888;
+}
+.social_bar{
+    position: fixed;
+    right: 0;
+    top: 35%;
+    font-size: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    z-index: 100;
+    background-color: #E79294;
+}
+.icon{
+	color: white;
+	text-decoration: none;
+	padding: .7rem;
+	display: flex;
+	transition: all .5s;
+}
+ .icon:hover{
+    background-color: #E0E990;
+	 color: dimgray;
+ }
+.icon-facebook2 {
+background: #373636;
+	
+}
+.icon-instagram {
+background: #373636;
+}
+.icon-youtube {
+background: #373636;
+}
+.icon-whatsapp {
+background: #373636;
+}
+
+.menul li a:hover  {
+    width: 156px;
+    height: 70px;
+    transition: 0.3s;
+    background-color: gray;
+    float: left;
+    text-align: center;
+    line-height: 70px;
+    font-family: "Myriad Pro";
+    font-style: normal;
+    color: white;
+    font-weight: bold;
+}
+
+#galera {
+	width: 1200px;
+	height: 670px;
+	float: left;
+	padding: 0px;
+	margin-top: 40px;
+
+}
+
+/*slider*/
+
+
+.slider{
+	width: 1200px;
+	height: 670px;
+	overflow: hidden;
+	
+	float: left;
+}
+.slider ul {
+	display: flex;
+	padding: 0px;
+	width: 500% ;
+	height: 670px;
+	animation: cambio 12s infinite alternate;
+	
+	animation animation-timing-function: ease-in;
+
+
+}
+
+
+
+
+
+.slider li{
+	list-style: none;
+}
+.slider img {
+	width: 1200px;
+	height: 670px;
+}
+ @keyframes cambio {
+ 	0% {margin-left: 0%;}
+ 	20% {margin-left: 0%;}
+ 	
+ 	25% {margin-left:-100%;}
+ 	45% {margin-left:-100%;}
+
+ 	50% {margin-left:-200%;}
+ 	70% {margin-left:-200%;}	
+
+ 	75% {margin-left:-300%;}
+ 	100% {margin-left:-300%;}
+
+}
+ 	
+ul {
+    list-style-type: none;
+    text-align: center;
+}
+
+/*segundoarticle*/
+.t1:hover{
+	
+          
+              
+   -moz-box-shadow:    inset 2px  2px 10px black;
+   -webkit-box-shadow: inset 2px 2px 10px black;
+   box-shadow:       inset  2px 2px 10px black ;
+}
+.t2 :hover{
+	
+          
+              
+   -moz-box-shadow:    inset 2px  2px 10px black;
+   -webkit-box-shadow: inset 2px 2px 10px black;
+   box-shadow:       inset  2px 2px 10px black ;
+}
+.t3:hover{
+	
+          
+              
+   -moz-box-shadow:    inset 2px  2px 10px black;
+   -webkit-box-shadow: inset 2px 2px 10px black;
+   box-shadow:       inset  2px 2px 10px black ;
+}
+.t1,  {transition-duration: 0.2s;
+	width: 400px
+	height:400px;
+
+}
+.t2,  {transition-duration: 0.2s;
+	width: 400px
+	height:400px;
+
+}
+.t3,  {transition-duration: 0.2s;
+	width: 400px
+	height:400px;
+
+}
+#foto_1{
+    width: 400px;
+    height: 400px;
+    margin-top: 20px;
+    background-image: url(img/cuadrado1.jpg);
+    float: left;
+
+
+}
+#foto_1:hover{
+    -moz-box-shadow:    inset 2px  2px 10px black;
+   -webkit-box-shadow: inset 2px 2px 10px black;
+   box-shadow:       inset  2px 2px 10px black ;
+
+
+}
+.textos{ 
+	
+	width: 85%;
+	height: 85%;
+	margin: 0px 0px;
+	padding: 30px 30px;
+	font-size: 35px;
+	font-family: "verdana";
+	text-align: center;
+	color: gray;
+	
+}
+#texto_2{
+	width: 400px;
+	height: 400px;
+	margin-top: 20px;
+	background-color: white;
+	float: left;
+}
+#foto_3{
+    width: 400px;
+    height: 400px;
+    margin-top: 20px;
+    background-image: url(img/cuadrado3.jpg);
+    float: left;
+}
+#foto_3:hover{
+   -moz-box-shadow:    inset 2px  2px 10px black;
+   -webkit-box-shadow: inset 2px 2px 10px black;
+   box-shadow:       inset  2px 2px 10px black ;
+}
+
+#texto_1{
+    width: 400px;
+    height: 400px;
+    margin-top: 0px;
+    background-color: white;
+    float: left;
+    text-align: center;
+}
+#foto_2{
+    width: 400px;
+    height: 400px;
+    margin-top: 0px;
+    background-image: url(img/cuadrado2.jpg);
+    float: left;
+}
+#foto_2:hover{
+    -moz-box-shadow:    inset 2px  2px 10px black;
+   -webkit-box-shadow: inset 2px 2px 10px black;
+   box-shadow:       inset  2px 2px 10px black ;
+}
+#texto_3{
+	width: 400px;
+	height: 400px;
+	margin-top: 0px;
+	background-color: white;
+	float: left;
+}
+
+#caja{
+    width: 1200px;
+    height: 1700px;
+    background-image: url(img/fotogrande.jpg);
+    margin-top: 20px;
+    float: left;
+
+	}
+
+	
+	div{
+		display: block;
+	}
+
+select{
+width: 250px;
+height:30px;
+background-color: white;
+position: center;
+
+}
+
+
+.logo1{
+	width: 300px;
+	height: 110px;
+	margin-top: 200px;
+	margin-left: 40%;
+}
+
+h3{
+	font-family: "verdana";
+	font-size: 130px;
+	text-align: center;
+	color:#0096D6;
+	opacity: 60%;
+}
+
+/*productos*/
+.caja_prod{
+    width: 1200px;
+    height: 1000px;
+    background-color: white;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 0px;
+}
+
+#logos_prod{
+    width: 1200px;
+    height: 750px;
+    background-image: url(img/logos.jpg);
+    background-repeat: repeat;
+    background-size: 100% 100%;
+    float: left;
+    display: block;
+
+}
+#logos_prod:hover{
+    width: 1200px;
+    height: 750px;
+    background-image: url(img/logos.jpg);
+    background-repeat: repeat;
+    background-size: 100% 100%;
+    float: left;
+    display: block;
+
+}
+#section_galeria {
+    width: 900px;
+    margin-top: 70px;
+    float: left;
+    background-color: gainsboro;
+}
+
+.imagen_producto{
+    width: 300px;
+    height: 400px;
+    background-image: url(img/espanta%20pajaro.jpg);
+    background-size: 110%;
+    background-position: -10px -10px;
+    text-align: center;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    padding: 40px;
+    box-shadow: 5px 5px 5px gray;
+}
+.imagen_producto:hover{
+   -moz-box-shadow: inset 8px 2px 10px black;
+    -webkit-box-shadow: inset 2px 1px 10px #252525;
+    box-shadow: inset 2px 1px 10px #252525;
+    color: #E82226;
+}
+.imagen_producto1{
+    width: 300px;
+    height: 400px;
+    background-image: url(img/jarron.jpg);
+    background-size: 110%;
+    background-position: -10px -10px;
+    text-align: center;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    padding: 40px;
+    box-shadow: 5px 5px 5px gray;
+}
+.imagen_producto1:hover{
+    -moz-box-shadow: inset 8px 2px 10px black;
+    -webkit-box-shadow: inset 2px 1px 10px #252525;
+    box-shadow: inset 2px 1px 10px #252525;
+    color: #E82226;
+}
+
+
+#article_productos, #article_productos1 {
+	margin-top: 100px;
+	width: 300px;
+	height:660px;
+	float: left;
+	margin-left: 24px;
+    margin-right: 24px;
+	font-family: "verdana";
+	
+}
+
+#section_galeria h2 {
+    font-family: "verdana";
+    font-size: 60px;
+    margin-top: 100px;
+    text-align: center;
+    color: #393939;
+}
+
+a.gaseosas {
+    margin-left: 110px;
+    margin-top: 39px;
+    text-align: center;
+    color: white;
+    width: 150px;
+    padding: 10px;
+    background-color: #6E6E6E;
+    border: 1px solid #6E6E6E;
+    font-size: 12px;
+    font-family: "verdana";
+    font-size: 12px;
+    font-family: "verdana";
+}
+
+a.gaseosas:hover {
+	background-color: #E0E990;
+    color: #414141;
+}
+
+p.sub_variedad{
+    margin-left: 45px;
+    color: #627B04;
+    margin-left: 150px;
+    text-align: left;
+}
+
+p.titulo_prod {
+    font-weight: bold;
+    margin-bottom: 12px;
+    margin-left: 148px;
+    text-align: left;
+    color: #627B04;
+    font-family: "verdana"
+}
+
+#article_productos1 ul, #article_productos ul {
+    list-style-type: none;
+	margin-bottom: 10px;
+	margin-top: 10px;
+}
+
+#article_productos1 ul li, #article_productos ul li{
+	width: 300px;
+	font-family: "verdana";
+	font-style: normal;	
+	font-size: 12px;
+	margin-left: 45px;
+	color: violet;
+	border-bottom: 1px solid violet;
+}
+
+.pie{
+    font-family: verdana;
+    font-size: 10px;
+    text-align: left;
+    margin-top: 0px;
+    color: dimgray;
+    float: left;
+    background-color: #FCF2B0;
+    width: 1200px;
+}
+
+
+	
+#article_galeria {
+    width: 400px;
+    height: 730px;
+    margin-top: 100px;
+    float: left;
+    margin-left: 24px;
+    margin-right: 24px;
+}
+.galeria {
+    width: 300px;
+    height: 1200px;
+    margin-top: 70px;
+    float: left;
+    background-image: url(img/aside%20article.jpg);
+}
+.galeria:hover {
+    -moz-box-shadow: inset 8px 2px 10px black;
+    -webkit-box-shadow: inset 2px 1px 10px #252525;
+    box-shadow: inset 2px 1px 10px #252525;
+    color: #E82226;
+}
+#article_galeria1 {
+    width: 400px;
+    height: 730px;
+    margin-top: 100px;
+    margin-left: 24px;
+    margin-right: 24px;
+    float: left;
+    font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+    text-align: center;
+}
+#article_galeria1 #pulse {
+	margin-left: 110px;
+	margin-top: 50px;
+	text-align: center;
+	color: white;
+	width: 150px;
+	padding: 10px;
+	background-color: #6E6E6E;
+	border: 1px solid #6E6E6E;
+	font-size: 12px;
+	font-family: "verdana";
+}
+#article_galeria1 #pulse:hover  {
+    background-color: #E0E990;
+    color: #414141;
+}
+#section_galeria h2 {
+    margin-top: 100px;
+    font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+    text-align: center;
+    font-size: 60px;
+}
+#section_galeria h2:hover  {
+     -moz-box-shadow:    inset 2px  2px 10px black;
+   -webkit-box-shadow: inset 2px 2px 10px black;
+   box-shadow:       inset  2px 2px 10px black ;
+}
+form {
+    float: left;
+}
+#caja footer {font-family: verdana;
+    font-size: 10px;
+    text-align: center;
+    margin-top: 0px;
+    color: dimgray;
+	float left: auto;
+}
+footer {font-family: verdana;
+    font-size: 10px;
+    text-align: center;
+    margin-top: 0px;
+    color: dimgray;
+	float left: auto;
+}
